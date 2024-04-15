@@ -8,6 +8,8 @@ setup(
     description='A simple GUI application to track cryptocurrency projects.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
+    url = 'https://github.com/DanFrolov',
+    download_url = 'https://github.com/DanFrolov/crypto_tracker/archive/refs/tags/v01.1.1.zip',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
