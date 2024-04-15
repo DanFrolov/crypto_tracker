@@ -4,6 +4,7 @@ setup(
     name='CryptoTracker',
     version='0.1.0',
     author='DanF',
+    license='MIT',
     description='A simple GUI application to track cryptocurrency projects.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -11,11 +12,11 @@ setup(
     include_package_data=True,
     install_requires=[
         'pandas',
-        'tkinter'  # Note: tkinter is usually included with Python's standard library
+        #'tkinter'  # Note: tkinter is usually included with Python's standard library
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: Developers/Crypro Users',
+        'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
