@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='CryptoTracker',
-    version='0.2.0',
+    version='0.1.1',
     author='DanF',
     license='MIT',
     description='A simple GUI application to track cryptocurrency projects.',
